@@ -1,0 +1,159 @@
+.footer{
+  display: grid;
+  justify-content: end;
+  align-content: end;
+  min-height: 60vh;
+  padding: 50px;
+
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background-image: url(../Assert/footer-illustration.png);
+  background-size: contain;
+  border: 1px solid black;
+}
+footer .container{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+footer .container .sec h2{
+  position: relative;
+  color: #333;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer .container .sec p {
+  color: #555;
+}
+
+footer .container .sci {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,50px);
+}
+
+footer .container .sci li {
+  list-style: none;
+}
+
+footer .container .sci li a i {
+  display: inline-block;
+  width: 360px;
+  height: 36px;
+  background: #333;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer .container .sci li a i {
+  color: white;
+  font-size: 20px;
+}
+
+footer .container .quicklinks {
+  position: relative;
+}
+
+footer .container .quicklinks ul li {
+  list-style: none;
+}
+
+footer .container .quicklinks ul li a {
+  color: #555;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+footer .container .contacte .info {
+  position: relative;
+}
+footer .container .contacte .info li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 16px;
+}
+
+footer .container .contacte .info li span {
+  color: #555;
+  font-size: 20px;
+}
+
+footer .container .contacte .info li a {
+  color: #555;
+  text-decoration: none;
+}
+
+.copyrightText{
+  width: 100%;
+  padding: 15px 30px;
+  text-align: center;
+  color: #555;
+  border: 1px solid rgba(0, 0, 0, 0.455);
+}
+footer .container::after {
+  content: url("../Assert//delivery-boy.svg");
+  bottom: -60px;
+  width: 160px;
+  position: absolute;
+  left: -150px;
+  animation: running-cycle 20s linear infinite;
+}
+@keyframes running-cycle {
+  0%{left: -150px;}
+  100% {left: 96%;}
+}
+
+@media(max-width:991px){
+  footer{
+    padding: 40px;
+    background-size: cover;
+
+  }
+  footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 20px;
+  }
+  .copyrightText{
+    padding: 20px 40px 30px;
+  }
+}
+@media(max-width:768px){
+  footer{
+    padding: 25px;
+    background-size: cover;
+
+  }
+  footer .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .copyrightText{
+    padding: 20px 40px 30px;
+  }
+  footer .container::after {
+    bottom: -35px;
+    width: 150px;
+    position: absolute;
+    left: -90px;
+  }
+  @keyframes running-cycle {
+    0%{left: -90px;}
+    100% {left: 80%;}
+  }
+
+}

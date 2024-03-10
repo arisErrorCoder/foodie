@@ -1,0 +1,50 @@
+.choose_content{
+padding: 50px 0px;
+}
+section img {
+    width:60%;
+}
+.single_feature span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single_feature h6{
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0px;
+
+}
+.choose_content h4 {
+    font-family: "Satisfy", cursive;
+    font-weight: normal;
+    color: #ff8e28;
+    font-size: 25px;
+   }
+   .choose_content h2 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+   }
+.single_feature .freeship{
+width: 50px;
+}
+.single_feature .cash{
+    width: 30px;
+    }
+    .single_feature .food{
+        width: 40px;
+        }
+.choose_content h4{
+ margin-bottom: 15px;   
+}
+.choose_content h2{
+    margin-bottom: 15px;   
+   }
+
+@media only screen and (max-width:991px) {
+    section img {
+        width:40%;
+    } 
+
+}
