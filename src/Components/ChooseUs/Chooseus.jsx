@@ -10,7 +10,7 @@ const Chooseus = () => {
   return (
     <>
     <Container>
-      <section className='mt-5'>
+      <section className='mt-5' id='about'>
         <Row>
           <Col lg='6' md='6' className='d-flex align-item-center justify-content-center'>
             <img src={offerimg} alt="" />

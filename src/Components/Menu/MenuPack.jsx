@@ -32,7 +32,7 @@ if(filter==='Coffee'){
 <section className='menu-pack mt-5'>
     <Container>
         <Row>
-            <Col lg='12' className='text-center'><h2>Our Menu Pack</h2></Col>
+            <Col lg='12' className='text-center' id='menu'><h2>Our Menu Pack</h2></Col>
             <Col lg='12' className='text-center mb-5 '><h1>#Order eat repeat</h1></Col>
             <Col lg='12' className='text-center mb-4 button_container'>
                 <button className={`btn ${filter ==='Fast-Food'? 'active_button': ''}`}onClick={()=> setFilter('Fast-Food')}>Fast Food</button>

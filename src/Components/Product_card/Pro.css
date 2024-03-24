@@ -17,12 +17,16 @@
 .card__desc{
     display: block;
     font-weight: 600;
+    font-size: 80%;
+}
+.card__desc img {
+    margin-bottom: 10px;
 }
 .card__data{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 280px;
+    width: 90%;
     background-color: whitesmoke;
     padding: 1.5rem 2rem;
     border-radius: 1rem;

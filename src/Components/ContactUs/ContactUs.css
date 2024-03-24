@@ -9,25 +9,23 @@
     margin: 20px 0 60px;
     padding: 0;
 }
-
 .contact .form-control {
     padding: 25px;
     font-size: 13px;
     margin-bottom: 10px;
     background: #f9f9f9;
-    border: 1px solid black;
     border-radius: 10px;
 }
 
 .contact button.btn {
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 15px;
+    padding: 10px 25px;
     background: #ff9100;
     color: #ffffff;
 }
 .contact .container {
-    border: 1px solid black;
     padding: 20px 15px;
     border-radius: 5px;
 }

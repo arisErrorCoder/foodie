@@ -4,10 +4,18 @@ import { Container } from 'reactstrap'
 import Home from '../Pages/Home'
 import { useCart } from 'react-use-cart'
 import empty from '../Assert/shopping.png'
+// import { useNavigate  } from "react-router-dom";
 
 const handleSubmit =(Event) =>{
     Event.preventDefault();
 }
+
+// const navigate = useNavigate();
+
+// const handleBookAppointmentClick = () => {
+//   navigate("/Home");
+// };
+
 
 const shippingThreshold = 300; // Set your shipping threshold here
   const shippingFee = 150; 
@@ -112,7 +120,7 @@ const Car = () => {
                     </div>
                 </div>
                 </div>
-                <a href="#" class="btn btn-success mt-4 " onClick={<Home/>}><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;Continue Shopping</a>
+                <a href="#" class="btn btn-success mt-4 "><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;Continue Shopping</a>
                 <a href="#" class="btn btn-primary pull-right mt-4">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
