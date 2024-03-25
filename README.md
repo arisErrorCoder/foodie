@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Foodie- React.js E-commerce Food Ordering Website</h1>
+<h1 align="center" color="red" id="title">Foodie- React.js E-commerce Food Ordering Website</h1>
 
 <p align="center"><img src="https://socialify.git.ci/arisErrorCoder/TravelWebsite/image?font=Rokkitt&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
@@ -18,6 +18,10 @@ Here're some of the project's best features:
 *   Search and Filter: Effortlessly search for specific dishes or filter by categories to find exactly what you're craving.
 *   Add to Cart: Easily add items to the shopping cart with just a click and manage quantities before checkout.
 
+<h2>🍰 Contribution Guidelines:</h2>
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements feel free to open an issue or submit a pull request.
+
   
   
 <h2>💻 Built with</h2>
@@ -27,7 +31,3 @@ Technologies used in the project:
 *   React.js: Frontend development framework for building dynamic user interfaces.
 *   Bootstrap: Frontend framework for responsive and mobile-first design.
 *   HTML & CSS: Markup and styling languages for structuring and designing the application.
-
-<h2>🛡️ License:</h2>
-
-This project is licensed under the
