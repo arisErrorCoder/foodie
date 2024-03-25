@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/arisErrorCoder/TravelWebsite/image?font=Rokkitt&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
-<p id="description">Foodie Express is a modern and intuitive e-commerce platform for food ordering designed and developed using React.js. With a sleek and user-friendly interface Foodie Express provides a seamless experience for customers to browse through a variety of delicious dishes place orders.</p>
+<p id="description">Foodie is a modern and intuitive e-commerce platform for food ordering designed and developed using React.js. With a sleek and user-friendly interface Foodie provides a seamless experience for customers to browse through a variety of delicious dishes place orders.</p>
 
 <h2>🚀 Demo</h2>
 
