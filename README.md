@@ -1,8 +1,33 @@
-# React + Vite
+<h1 align="center" id="title">Foodie- React.js E-commerce Food Ordering Website</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><img src="https://socialify.git.ci/arisErrorCoder/TravelWebsite/image?font=Rokkitt&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
-Currently, two official plugins are available:
+<p id="description">Foodie Express is a modern and intuitive e-commerce platform for food ordering designed and developed using React.js. With a sleek and user-friendly interface Foodie Express provides a seamless experience for customers to browse through a variety of delicious dishes place orders.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>🚀 Demo</h2>
+
+[https://foodie05.netlify.app/](https://foodie05.netlify.app/)
+
+  
+  
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Browse Menu: An extensive menu showcasing a diverse range of dishes with detailed descriptions and prices.
+*   Search and Filter: Effortlessly search for specific dishes or filter by categories to find exactly what you're craving.
+*   Add to Cart: Easily add items to the shopping cart with just a click and manage quantities before checkout.
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   React.js: Frontend development framework for building dynamic user interfaces.
+*   Bootstrap: Frontend framework for responsive and mobile-first design.
+*   HTML & CSS: Markup and styling languages for structuring and designing the application.
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the
