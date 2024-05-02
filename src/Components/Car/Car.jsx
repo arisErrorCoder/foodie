@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Car.css"
+import { Link } from 'react-router-dom';
 import { Container } from 'reactstrap'
 import Home from '../Pages/Home'
 import { useCart } from 'react-use-cart'
@@ -120,7 +121,8 @@ const Car = () => {
                     </div>
                 </div>
                 </div>
-                <a href="#" class="btn btn-success mt-4 "><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;Continue Shopping</a>
+<Link to="/menu"><a href="#" class="btn btn-success mt-4 "><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;Continue Shopping</a>
+</Link>
                 <a href="#" class="btn btn-primary pull-right mt-4">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>

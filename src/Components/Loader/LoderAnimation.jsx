@@ -1,6 +1,6 @@
 import React from 'react'
 import "./HomePageLoader.css"
-const HomePageL = () => {
+const HomePageLoder = () => {
   return (
     <>
     <div className="loder_container">
@@ -14,4 +14,4 @@ const HomePageL = () => {
   )
 }
 
-export default HomePageL
+export default HomePageLoder

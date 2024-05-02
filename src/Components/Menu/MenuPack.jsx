@@ -29,7 +29,7 @@ if(filter==='Coffee'){
 
   return (
 <>
-<section className='menu-pack mt-5'>
+<section className='menu-pack mt-5' id='MENU'>
     <Container>
         <Row>
             <Col lg='12' className='text-center' id='menu'><h2>Our Menu Pack</h2></Col>

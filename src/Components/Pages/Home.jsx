@@ -1,45 +1,51 @@
 import React, { useEffect, useState } from 'react';
-import Popularmenu from '../Popularmenu/Popularmenu'
-import Hero from '../Hero/Hero'
-import Chooseus from '../ChooseUs/Chooseus'
-import MenuPack from '../Menu/MenuPack'
-import Testimonials from '../Testimonials/Testimonials'
-import Footer from '../Footer/Footer'
-import Header from '../Header/Header'
-import HomePageL from '../Loader/HomePageL'
+import Popularmenu from '../Popularmenu/Popularmenu';
+import Hero from '../Hero/Hero';
+import Chooseus from '../ChooseUs/Chooseus';
+import MenuPack from '../Menu/MenuPack';
+import Testimonials from '../Testimonials/Testimonials';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import ContactUs from '../ContactUs/ContactUs';
-const Home = () => {
+import HomePageLoder from '../Loader/LoderAnimation';
 
+const Home = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const handleLoad = () => {
       setLoading(false);
-    }, 4000); // 4 seconds delay
+    };
 
-    return () => clearTimeout(timer);
+    // If the load event has already occurred, handle it immediately
+    if (document.readyState === 'complete') {
+      handleLoad();
+    } else {
+      window.addEventListener('load', handleLoad);
+    }
+
+    return () => {
+      window.removeEventListener('load', handleLoad);
+    };
   }, []);
 
   return (
-<>
-{loading ? (
-        <HomePageL/>
-      ) : (
-         <> 
-<Header/>
-<Hero/>
-<Popularmenu/>
-<Chooseus/>
-<MenuPack/>
-<ContactUs/>
-<Testimonials/>
-<Footer/>
-</>
+    <>
+      {loading ? (<HomePageLoder/>) 
+      : (
+        <>
+          <Header />
+          <Hero />
+          <Popularmenu />
+          <Chooseus />
+          <MenuPack />
+          <ContactUs />
+          <Testimonials />
+          <Footer />
+        </>
+      )}
+    </>
+  );
+};
 
-     )}
-</>
-
-    )
-}
-
-export default Home
+export default Home;

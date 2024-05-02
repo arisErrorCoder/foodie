@@ -78,7 +78,7 @@ const Header = ({ scrollToSection, popularMenuRef, reviewsRef, menueRef }) => {
                     <li><a href="#about">About us</a></li>
                     <li><a href="#cont" >Contact us</a></li>
                     {/* <li><Link href="#cont">Contact us</Link></li> */}
-                    <li><a href="#" >blog</a></li>
+                    <li><a href="#MENU" >Menu</a></li>
                     
                 </ul>
                 <div className="menu_right">
